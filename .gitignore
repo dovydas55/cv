@@ -1,0 +1,12 @@
+*.dvi
+*.log
+*.aux
+*.ps
+*.bbl
+*.bcf
+*.blg
+*.fls
+*.out
+*.run.xml
+*.fdb_latexmk
+*.synctex.gz

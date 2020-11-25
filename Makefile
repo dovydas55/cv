@@ -8,10 +8,9 @@ clean:
 	rm -f *.blg
 	rm -f *.fls
 	rm -f *.out
-	rm -f *.pdf
 	rm -f *.run.xml
 	rm -f *.fdb_latexmk
 	rm -f *.synctex.gz
 
 build:
-	pdflatex main.tex
+	latex main.tex

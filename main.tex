@@ -3,10 +3,6 @@
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
 \def\theme{MidnightBlue}
 
-% More predefined colors can be found in 
-% https://en.wikibooks.org/wiki/LaTeX/Colors
-% Example photograph taken from Wikimedia Commons
-% https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
 \usepackage{import}
 \usepackage{simplecv}
 
@@ -24,16 +20,7 @@
 % Page One
 \import{sections/}{education.tex}
 \import{sections/}{experience.tex}
-
-\pagebreak
-
-% Page Two
 \import{sections/}{teaching.tex}
-\sidebyside
-    {\import{sections/}{skills.tex}}
-    {\import{sections/}{languages.tex}}
-\import{sections/}{projects.tex}
-\import{sections/}{awards.tex}
-\import{sections/}{extracurricular.tex}
+\import{sections/}{certification.tex}
 
 \end{document}

@@ -13,4 +13,4 @@ clean:
 	rm -f *.synctex.gz
 
 build:
-	latex main.tex
+	pdflatex main.tex
